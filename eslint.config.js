@@ -12,7 +12,7 @@ export default defineConfig([
       globals: {
         ...globals.browser,
         ...globals.es2021,
-		...globals.jest,
+        ...globals.jest,
       },
     },
     extends: ["js/recommended"],
